@@ -1,4 +1,5 @@
-import BookDetails from "./components/BookDetails";
+// import BookDetails from "./components/BookDetails";
+import BookForm from "./components/BookForm";
 import BookList from "./components/BookList";
 import Navbar from "./components/Navbar";
 import BookContextProvider from "./contetxs/BookContext";
@@ -10,6 +11,7 @@ function App() {
       <BookContextProvider>
         <Navbar />
         <BookList />
+        <BookForm />
       </BookContextProvider>
     </div>
   );
